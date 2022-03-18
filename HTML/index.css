@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+}
+
+#box {
+  border: 1px solid black;
+}
+#box img {
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}
+
+.animate {
+  animation: slide 2s ease;
+  transition: 0.2s;
+}
